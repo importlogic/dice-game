@@ -1,0 +1,70 @@
+body{
+    background-color: #393e46;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    padding: 10px;
+    color: #4ecca3;
+}
+
+.container-fluid{
+    margin: 30px 0;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+h2{
+    margin-bottom: -30px;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.table-item{
+    margin: 20px;
+}
+
+hr{
+    margin: 20px auto;
+    border-color: white;
+    border-width: .3rem 0 0 0;
+    border-style: dotted;
+    width: 20%;
+}
+
+.roll-dice-img{
+    background-color: #FFC54D00;
+    width: 50px;
+    border: none;
+}
+
+
+.roll-dice-btn{
+    background: #FFC54D;
+    background-image: -webkit-linear-gradient(top, #FFC54D, #cf9829);
+    background-image: -moz-linear-gradient(top, #FFC54D, #cf9829);
+    background-image: -ms-linear-gradient(top, #FFC54D, #cf9829);
+    background-image: -o-linear-gradient(top, #FFC54D, #cf9829);
+    background-image: linear-gradient(to bottom, #FFC54D, #cf9829);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 0px 10px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+}
+  
+.roll-dice-btn:hover {
+    background: #facb6e;
+    background-image: -webkit-linear-gradient(top, #facb6e, #facb6c);
+    background-image: -moz-linear-gradient(top, #facb6e, #facb6c);
+    background-image: -ms-linear-gradient(top, #facb6e, #facb6c);
+    background-image: -o-linear-gradient(top, #facb6e, #facb6c);
+    background-image: linear-gradient(to bottom, #facb6e, #facb6c);
+    text-decoration: none;
+}
