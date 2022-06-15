@@ -27,6 +27,11 @@ p{
     margin: 20px;
 }
 
+.dice-one, .dice-two{
+    width: 256px;
+    height: 256px;
+}
+
 hr{
     margin: 20px auto;
     border-color: white;
@@ -40,7 +45,6 @@ hr{
     width: 50px;
     border: none;
 }
-
 
 .roll-dice-btn{
     background: #FFC54D;
@@ -67,4 +71,9 @@ hr{
     background-image: -o-linear-gradient(top, #facb6e, #facb6c);
     background-image: linear-gradient(to bottom, #facb6e, #facb6c);
     text-decoration: none;
+}
+
+.roll-dice-btn[aria-disabled=true]{
+    opacity: 0.7;
+    cursor: not-allowed;
 }
